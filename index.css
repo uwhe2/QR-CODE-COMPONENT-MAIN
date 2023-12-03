@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Hanken+Grotesk:wght@500&family=Montserrat:wght@500;700&family=Outfit&family=Roboto:wght@400;700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*font-family: 'Fraunces', serif;
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+body {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 25rem;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    width: inherit;
+    height:50vh;
+    border: 5px;
+
+    border-radius: 20px
+}
+
+.div {
+    margin: 10px;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    columns: hsl(218, 44%, 22%);
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    
+
+}
+
+@media screen and (min-width:375px) {
+   .div body {
+        flex-direction:column;
+    }
+}
